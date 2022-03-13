@@ -1,0 +1,46 @@
+.future {
+  position: relative;
+  
+  p {
+    margin: 24px 0;
+  }
+
+  h2 {
+    margin-top: 158px;
+    margin-bottom: 32px;
+  }
+  
+  h4 {
+    margin-top: 68px;
+    margin-bottom: 0;
+  }
+
+  &__content-wrapper {
+    margin: 0 166px;
+    padding-bottom: 256px;
+
+    .half {
+      width: 50%;
+    }
+  }
+
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 925px;
+    height: 882px;
+    background-image: url('/images/illustration-editor-desktop.svg');
+    background-repeat: no-repeat;
+
+    background-position: 0px 0px;
+
+    // top: -90px;
+    // right: -275px;
+
+    top: -90px;
+    left: 55%;
+    
+    z-index: -1;
+  }
+}

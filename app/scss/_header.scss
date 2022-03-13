@@ -92,21 +92,17 @@
     margin: 128px 10px 66px 10px;
     
 
-    h1, p {
-      text-align: center;
+    h1, h5 {
       color: $white;
 
       font-family: 'Overpass', sans-serif;
     }
 
     h1 {
-      font-size: 60px;
       margin: 0;
     }
 
-    p {
-      font-size: 20px;
-      font-weight: 300;
+    h5 {
       opacity: 0.8;
       margin-top: 12px;
       margin-bottom: 48px;
@@ -124,6 +120,7 @@
     position: absolute;
     content: "";
     background-image: url('/images/bg-pattern-intro-desktop.svg');
+    background-repeat: no-repeat;
     // background-position: -450px -1360px;
     background-position: -450px -1340px;
     
