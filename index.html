@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="dist/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="dist/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" /> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> 
+  <link href=
+    "https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" 
+    rel="stylesheet" 
+  />
   
   <title>Frontend Mentor | [Blogr]</title>
 
@@ -16,6 +23,67 @@
   </style>
 </head>
 <body>
+  <header class="header">
+    <nav class="flex flex-ai-c" >
+      <a href="/" class="header__logo ">Blogr</a>
+
+      <ul class="header__links flex flex-ai-c">
+        <li id="btnProduct">
+          <a href="#" class="disabled">Product</a>
+          <div class="dropdown" id="dpnProduct">
+            <ul>
+              <li><a href="#">Overview</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Marketplace</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Integrations</a></li>
+            </ul> 
+          </div>
+        </li>
+        <li id="btnCompany">
+          <a href="#" class="disabled">Company</a>
+          <div class="dropdown" id="dpnCompany">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul> 
+          </div>
+        </li>
+        <li id="btnConnect">
+          <a href="#" class="disabled">Connect</a>
+          <div class="dropdown" id="dpnConnect">
+            <ul>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Newsletter</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul> 
+          </div>
+        </li>
+      </ul>
+  
+      <div class="header__buttons">
+        <a href="#">Login</a>
+        <button class="button button-primary">Sign Up</button>
+      </div>
+    </nav>   
+    
+    <div class="header__cta">
+      <h1>
+        A modern publishing platform
+      </h1>
+      <p>
+        Grow your audience and build your online brand
+      </p>
+      <div class="header__cta_buttons flex flex-jc-sb">
+        <button class="button button-primary">Start for Free</button>
+        <button class="button">Learn More</button>
+      </div>
+    </div>
+  </header>
+
+
   Product
 
   Overview
