@@ -96,6 +96,7 @@ ul {
   padding: 34px 24px;
   width: 168px;
   transition: opacity 100ms ease-in-out;
+  pointer-events: none;
 
   ul > li {
     &:not(:last-child) {
@@ -105,9 +106,9 @@ ul {
     a { 
       color: $veryDarkBlue; 
       font-weight: 400;
-      padding: 0;
+      padding: 4px 0;
 
-      // transition: font-weight 100ms ease-in-out; // Unsupproted yet
+      transition: none;
 
       &:hover {
         font-weight: 500;
@@ -118,4 +119,6 @@ ul {
 
 .show {
   opacity: 1;
+  pointer-events: auto;
+  cursor: default;
 }

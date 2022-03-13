@@ -86,6 +86,7 @@ ul {
   padding: 34px 24px;
   width: 168px;
   transition: opacity 100ms ease-in-out;
+  pointer-events: none;
 }
 
 .dropdown ul > li:not(:last-child) {
@@ -95,7 +96,8 @@ ul {
 .dropdown ul > li a {
   color: #1f3f5b;
   font-weight: 400;
-  padding: 0;
+  padding: 4px 0;
+  transition: none;
 }
 
 .dropdown ul > li a:hover {
@@ -104,6 +106,8 @@ ul {
 
 .show {
   opacity: 1;
+  pointer-events: auto;
+  cursor: default;
 }
 
 .header {
@@ -152,6 +156,7 @@ ul {
   padding: 4px 24px 4px 4px;
   opacity: 0.7;
   position: relative;
+  transition: all 200ms ease-in-out;
 }
 
 .header__links > li > a::after {
