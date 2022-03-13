@@ -255,34 +255,35 @@ ul {
   z-index: -1;
 }
 
-.future {
+.editor {
   position: relative;
 }
 
-.future p {
+.editor p {
   margin: 24px 0;
 }
 
-.future h2 {
+.editor h2 {
   margin-top: 158px;
   margin-bottom: 32px;
 }
 
-.future h4 {
+.editor h4 {
   margin-top: 68px;
   margin-bottom: 0;
 }
 
-.future__content-wrapper {
-  margin: 0 166px;
+.editor__content-wrapper {
+  max-width: 1112px;
+  margin: 0 auto;
   padding-bottom: 256px;
 }
 
-.future__content-wrapper .half {
+.editor__content-wrapper .half {
   width: 50%;
 }
 
-.future::before {
+.editor::before {
   position: absolute;
   content: "";
   width: 925px;

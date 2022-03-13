@@ -1,4 +1,4 @@
-.future {
+.editor {
   position: relative;
   
   p {
@@ -16,7 +16,8 @@
   }
 
   &__content-wrapper {
-    margin: 0 166px;
+    max-width: 1112px;
+    margin: 0 auto;
     padding-bottom: 256px;
 
     .half {
